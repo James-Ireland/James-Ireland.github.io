@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# James Ireland 
+# About
 
 ## Publications
 
