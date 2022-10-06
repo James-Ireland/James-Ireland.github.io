@@ -4,11 +4,11 @@ layout: default
 
 ## Datasets
 ### SORT
+![SORT image](https://github.com/James-Ireland/James-Ireland.github.io/blob/main/docs/assets/sORt_sampleAnnotation_org_img.png)
+
 <a href="https://james-ireland.github.io/Datasets">Link</a>
 
 ## Publications
-
-# About Me
 
 ## Research interests  
 * Computer Vision 
@@ -19,4 +19,4 @@ layout: default
 * Human Computer Interaction (HCI) 
 
 ## Contact Information
-<Email: James.Ireland@canberra.edu.au
+Email: James.Ireland@canberra.edu.au
