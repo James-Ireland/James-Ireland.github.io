@@ -20,7 +20,7 @@ The Synthetic Operating Room Table (SORT) dataset is a largescale computer visio
   * <a href="https://doi.org/10.7910/DVN/UCG5CW">doi:10.7910/DVN/UCG5CW</a>
   
   
-
+&nbsp;
 
 ### Multiple Sensors Multi-instance (MSMI) Dataset
 Coming soon ....
