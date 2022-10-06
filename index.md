@@ -5,15 +5,14 @@ layout: default
 ## Datasets
 ### SORT
  
- ![SORT image](https://James-Ireland.github.io/blob/main/docs/assets/sORt_sampleAnnotation_org_img.png)
- ![SORT annotations](./docs/assets/sORt_sampleAnnotation_BB_segMask_lbls.png)
-  ![SORT annotations](./assets/sORt_sampleAnnotation_BB_segMask_lbls.png)
-   ![SORT annotations](./sORt_sampleAnnotation_BB_segMask_lbls.png)
-
-[![SORT image](https://github.com/James-Ireland/James-Ireland.github.io/blob/main/docs/assets/sORt_sampleAnnotation_org_img.png)] | [![SORT annotations](https://github.com/James-Ireland/James-Ireland.github.io/blob/main/docs/assets/sORt_sampleAnnotation_BB_segMask_lbls.png)]
+ ![SORT image](./docs/assets/sORt_sampleAnnotation_org_img.png)
+ ![SORT annotations](./docs/assets/sORt_sampleAnnotation_BB_segMask_lbls.png) 
+ 
+ ![SORT image](./docs/assets/sORt_sampleAnnotation_org_img.png "title"=%50x)
  
  
- <img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
+ 
+ <img align="right" width="100" height="100" src="./docs/assets/sORt_sampleAnnotation_org_img.png">
  
  
 <a href="https://james-ireland.github.io/Datasets">Link</a>
