@@ -12,13 +12,13 @@ The Synthetic Operating Room Table (SORT) dataset is a largescale computer visio
   The depictions contained are rendered using the <a href="https://www.unrealengine.com">Unreal</a> game engine and annotated leveraging the <a href="https://unrealcv.org">UnrealCV</a> plugin. 
   SORT contains one container class, one material class (gauze) and six instrument classes namely, forceps, scalpels, pincettes (tweezers), syringes, periotomes, and scissors. To aid in generalisability, each class contains two different 3D representations equally likely to be present for a given instance, with exception of the container class that leverages three different 3D models.
   
-  <a href="https://github.com/James-Ireland/Synthetic_OR_table_generative_game">Github Link to Unreal Game with inbult custom UnrealCV plug-in</a>
+  <a href="https://github.com/James-Ireland/Synthetic_OR_table_generative_game">Github Link to our game with custom UnrealCV plug-in </a>
+  
   <a href="https://github.com/James-Ireland/Surgical_instrument_instance_counting_benchmarks">Github Link to benchmarking code</a>
   
   <a href="https://doi.org/10.7910/DVN/UCG5CW">doi:10.7910/DVN/UCG5CW</a>
   
- 
-<a href="https://james-ireland.github.io/Datasets">Link</a>
+  
 
 
 ### Multiple Sensors Multi-instance (MSMI) Dataset
