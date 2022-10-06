@@ -102,8 +102,8 @@ footer {
       R. Biswas, S. Ganguly, M. Saha, S. Saha, S. Mukherjee, and A. Ayaz. Gossypiboma and Surgeon - Current Medicolegal Aspect – A Review. Indian Journal of Surgery, 74(4):318–322, 2012 (2022-10-06) 
       ```
     </p> 
-    ![alt text](James-Ireland.github.io/blob/main/Figures/sORt_sampleAnnotation_org_img.png "....")
     
+    ![SORT sythetic images](/least-github-pages/assets/sORt_sampleAnnotation_org_img.png)
     
     <h1>Multiple Sensor Multi-instance (MSMI) Dataset</h1>
     <p>
