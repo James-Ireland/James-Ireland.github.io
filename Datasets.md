@@ -96,6 +96,7 @@ footer {
       The aim is to be able to count surgical instruments and materials via computer vision to aid medical staff in ensuring no instrument is retained by a patient, leading to complications such as chronic pain and sepsis. 
       Currently this is done manually, with the World Health Organisation (WHO) proposing that manual counts should be completed by two members of staff (Biswas, 2012), typically counting instruments laid out on a surface, either before or after their use. 
       This standard practice of logging the type and number of a given instrument or material to be used during an operation is not managerial overhead but crucial for the prevention of retained instruments, consumables, or materials during surgery, as these would negatively impact on a patient's recovery time or even lead to the patient's death. 
+      ![alt text](https://james-ireland.github.io/blob/master/figures/SORT_image.png "....")
       ```bibtex
       Qiu, W., Zhong, F., Zhang, Y., Qiao, S., Xiao, Z., Kim, T.S. and Wang, Y., 2017, October. Unrealcv: Virtual worlds for computer vision. In Proceedings of the 25th ACM international conference on Multimedia (pp. 1221-1224) 
       
