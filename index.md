@@ -4,7 +4,7 @@ layout: default
 
 ## Datasets
 ### SORT
-![SORT image](https://github.com/James-Ireland/James-Ireland.github.io/blob/main/docs/assets/sORt_sampleAnnotation_org_img.png =50%x) | ![SORT annotations](https://github.com/James-Ireland/James-Ireland.github.io/blob/main/docs/assets/sORt_sampleAnnotation_BB_segMask_lbls.png =50%x)
+![SORT image](https://github.com/James-Ireland/James-Ireland.github.io/blob/main/docs/assets/sORt_sampleAnnotation_org_img.png "title-1"=50%x) | ![SORT annotations](https://github.com/James-Ireland/James-Ireland.github.io/blob/main/docs/assets/sORt_sampleAnnotation_BB_segMask_lbls.png "title-2"=50%x)
  
 <a href="https://james-ireland.github.io/Datasets">Link</a>
 
