@@ -103,7 +103,7 @@ footer {
       ```
     </p> 
     
-    ![SORT sythetic images](/least-github-pages/assets/sORt_sampleAnnotation_org_img.png)
+    ![SORT sythetic images](./assets/sORt_sampleAnnotation_org_img.png)
     
     <h1>Multiple Sensor Multi-instance (MSMI) Dataset</h1>
     <p>
