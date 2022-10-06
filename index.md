@@ -2,13 +2,13 @@
 layout: default
 ---
 
-# About
-
-## Publications
-
 ## Datasets
 ### SORT
 <a href="https://james-ireland.github.io/Datasets">Link</a>
+
+## Publications
+
+# About Me
 
 ## Research interests  
 * Computer Vision 
