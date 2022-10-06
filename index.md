@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## Datasets
-### SORT
+### Synthetic Operating Room Table (SORT) Dataset
  
  ![SORT image](./docs/assets/sORt_sampleAnnotation_org_img.png)
  ![SORT annotations](./docs/assets/sORt_sampleAnnotation_BB_segMask_lbls.png) 
