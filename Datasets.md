@@ -1,15 +1,8 @@
 
 
 # Datasets
-
+*   [back](./index.md) 
   
-    <ul style="line-height:2;">
-      <li><a href="https://james-ireland.github.io/">Main</a></li>
-      
-      <li><a href="https://james-ireland.github.io/Publications">Publications</a></li>
-      
-      <li><a href="https://james-ireland.github.io/Contact">Contact Information</a></li>
-    </ul> 
   
  
 ## Synthetic Operating Room Table (SORT) Dataset 
@@ -35,6 +28,4 @@
      COMING SOON....
 
 
-</body>
-</html>
 
