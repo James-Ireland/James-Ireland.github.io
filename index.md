@@ -23,7 +23,7 @@ The Synthetic Operating Room Table (SORT) dataset is a largescale computer visio
  &nbsp;
   * <a href="https://github.com/James-Ireland/Synthetic_OR_table_generative_game">Link to our game with custom UnrealCV plug-in </a>
   
- *  <a href="https://github.com/James-Ireland/Surgical_instrument_instance_counting_benchmarks">Link to code</a>
+ *  <a href="https://github.com/James-Ireland/Surgical_instrument_instance_counting_benchmarks">Link to benchmarking code</a>
   
   * <a href="https://doi.org/10.7910/DVN/UCG5CW">doi:10.7910/DVN/UCG5CW</a>
     
