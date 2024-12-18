@@ -1,4 +1,0 @@
- 
-# Publications 
-
-[Back](./index.html).
