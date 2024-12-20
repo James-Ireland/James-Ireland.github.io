@@ -9,7 +9,7 @@
   }
 
 section {
-    width:960pt;
+    width:auto;
     float:right;
     padding-bottom:50px;
     padding-left: 50px;
@@ -33,6 +33,7 @@ section {
     }
   
     section {
+      width:800px;
       padding:20px 84px 20px 50px;
       margin:0 0 20px;
     } 
@@ -61,7 +62,7 @@ section {
     }
   
     section {
-      width:640pt;
+      width:400px;
       padding:20px 84px 20px 50px;
       margin:0 0 20px;
     }
@@ -86,7 +87,7 @@ section {
     }
   
     section {
-      width:460pt;
+      width:auto;
       padding:10px 0 10px 20px;
       margin:0 0 30px;
     }
