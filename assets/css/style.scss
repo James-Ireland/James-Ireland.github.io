@@ -20,9 +20,7 @@ section {
     div.wrapper {
       width:auto;
       margin:0;
-    }
-  
-
+    } 
   
     footer {
         border-top: 1px solid #ccc;
@@ -37,9 +35,7 @@ section {
     section {
       padding:20px 84px 20px 50px;
       margin:0 0 20px;
-    }
-  
-    
+    } 
   
     header ul {
       position:static; 
@@ -65,6 +61,7 @@ section {
     }
   
     section {
+      width:640pt;
       padding:20px 84px 20px 50px;
       margin:0 0 20px;
     }
@@ -81,16 +78,15 @@ section {
   @media print, screen and (max-width: 720px) {
     body {
       word-wrap:break-word;
-    }
-
-   
-  
+    } 
+      
     header {
       padding:10px 20px 0;
           margin-right: 0;
     }
   
     section {
+      width:460pt;
       padding:10px 0 10px 20px;
       margin:0 0 30px;
     }
