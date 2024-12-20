@@ -18,7 +18,7 @@
       <header>
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
-        <p class="header">{{ site.Email}}</p>
+        <p class="header">{{ <a href=site.Email>site.Email</a>}}</p>
 
         <ul>
           <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
