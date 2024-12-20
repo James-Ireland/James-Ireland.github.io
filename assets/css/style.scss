@@ -12,10 +12,10 @@ section {
     width:1200px;
     float:left;
     padding-bottom:50px;
-    padding-left: 250px;
+    padding-left: 300px;
   }
 
-  @media print, screen and (max-width: 1680px) {
+  @media print, screen and (max-width: 1580px) {
 
     div.wrapper {
       width:auto;
@@ -33,9 +33,10 @@ section {
     }
   
     section {
-      width:700px; 
+      width:1200px; 
       float:left;
       margin:0 0 20px;
+      padding-left: 250px;
     } 
   
     header ul {
