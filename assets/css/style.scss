@@ -2,4 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
-@import "custom_style.scss";
+
+/* Section - for main page content */
+section {
+  width:1250px;
+  float:right;
+  padding-bottom:50px;
+}
