@@ -10,9 +10,9 @@
 
 section {
     width:1200px;
-    float:right;
+    float:left;
     padding-bottom:50px;
-    padding-left: 50px;
+    padding-left: 250px;
   }
 
   @media print, screen and (max-width: 1680px) {
@@ -135,7 +135,7 @@ section {
   @media print, screen and (max-width: 480px) {
   
     header, section, footer {
-        float:none;
+        :none;
         position:static;
         width:auto;
       }
