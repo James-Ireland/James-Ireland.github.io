@@ -133,7 +133,12 @@ section {
     footer a{
         display:block;
     }
-  
+
+   header ul {
+      position:absolute;
+      right:0px;
+      top:0px;
+    }
   }
   
   @media print {
