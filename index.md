@@ -2,6 +2,9 @@
 layout: default
 ---
 
+## Contact Information
+Email: James.Ireland.phd@gmail.com
+
 ## Research interests  
 * Computer Vision 
 * Machine Learning 
@@ -92,5 +95,4 @@ Coming soon ....
 
 ``` 
 
-## Contact Information
-Email: James.Ireland@canberra.edu.au
+
