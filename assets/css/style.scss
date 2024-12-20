@@ -42,9 +42,7 @@ section {
     
   
     header ul {
-      position:absolute;
-      right:130px;
-      top:84px;
+      position:static; 
     }
   }
 
@@ -55,8 +53,6 @@ section {
       width:auto;
       margin:0;
     }
-  
-    
   
     footer {
         border-top: 1px solid #ccc;
@@ -78,9 +74,7 @@ section {
     }
   
     header ul {
-      position:absolute;
-      right:130px;
-      top:84px;
+      position:static; 
     }
   }
   
