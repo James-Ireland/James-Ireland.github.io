@@ -22,7 +22,7 @@ section {
       margin:0;
     }
   
-    
+   
   
     footer {
         border-top: 1px solid #ccc;
@@ -39,7 +39,9 @@ section {
       margin:0 0 20px;
     }
   
-     
+    header a small {
+      display:inline;
+    }
   
     header ul {
       position:absolute;
@@ -56,11 +58,7 @@ section {
       margin:0;
     }
   
-    header, section, footer {
-      float:none;
-      position:static;
-      width:auto;
-    }
+    
   
     footer {
         border-top: 1px solid #ccc;
@@ -77,7 +75,9 @@ section {
       margin:0 0 20px;
     }
   
-    
+    header a small {
+      display:inline;
+    }
   
     header ul {
       position:absolute;
@@ -91,11 +91,7 @@ section {
       word-wrap:break-word;
     }
 
-    header, section, footer {
-        float:none;
-        position:static;
-        width:auto;
-      }
+   
   
     header {
       padding:10px 20px 0;
@@ -107,7 +103,9 @@ section {
       margin:0 0 30px;
     }
 
-    
+    header a small {
+        display:inline;
+      }
   
     footer {
         margin: 0 0 0 30px;
@@ -125,7 +123,7 @@ section {
         position:static;
         width:auto;
       }
-
+      
     header ul li.download {
       display:none;
     }
