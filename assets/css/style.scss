@@ -22,11 +22,7 @@ section {
       margin:0;
     }
   
-    header, section, footer {
-      float:none;
-      position:static;
-      width:auto;
-    }
+    
   
     footer {
         border-top: 1px solid #ccc;
@@ -43,9 +39,7 @@ section {
       margin:0 0 20px;
     }
   
-    header a small {
-      display:inline;
-    }
+     
   
     header ul {
       position:absolute;
@@ -135,7 +129,7 @@ section {
         position:static;
         width:auto;
       }
-      
+
     header ul li.download {
       display:none;
     }
