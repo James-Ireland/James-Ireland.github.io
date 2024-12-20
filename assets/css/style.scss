@@ -98,6 +98,12 @@ section {
     body {
       word-wrap:break-word;
     }
+
+    header, section, footer {
+        float:none;
+        position:static;
+        width:auto;
+      }
   
     header {
       padding:10px 20px 0;
@@ -124,6 +130,12 @@ section {
   
   @media print, screen and (max-width: 480px) {
   
+    header, section, footer {
+        float:none;
+        position:static;
+        width:auto;
+      }
+      
     header ul li.download {
       display:none;
     }
