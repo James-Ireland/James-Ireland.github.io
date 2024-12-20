@@ -2,8 +2,6 @@
 layout: default
 ---
 
-## Contact Information
-Email: James.Ireland.phd@gmail.com
 
 ## Research interests  
 * Computer Vision 
