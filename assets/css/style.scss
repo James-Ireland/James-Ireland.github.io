@@ -8,6 +8,12 @@
     width:1600px;
   }
 
+section {
+    width:960px;
+    float:right;
+    padding-bottom:50px;
+  }
+
   @media print, screen and (max-width: 1600px) {
 
     div.wrapper {
