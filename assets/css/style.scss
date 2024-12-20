@@ -118,7 +118,7 @@ section {
     }
   
     section {
-      width:auto; 
+      width: -moz-available; 
       float:left;
       padding:10px 0 10px 20px;
       margin:0 0 20px;
@@ -144,7 +144,7 @@ section {
     }
   
     section {
-      width:auto;
+      width: -moz-available;
       padding:10px 0 10px 20px;
       margin:0 0 30px;
     }
@@ -167,7 +167,7 @@ section {
     header, section, footer {
         padding:none;
         position:static;
-        width:auto;
+        width: -moz-available;
       }
       
     header ul li.download {
