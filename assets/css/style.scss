@@ -24,8 +24,7 @@ section {
   
     footer {
         border-top: 1px solid #ccc;
-        margin:0 84px 0 50px;
-        
+        margin:0 84px 0 50px; 
         padding:0;
     }
   
@@ -63,7 +62,7 @@ section {
   
     section {
       width:600px; 
-        float:left;
+      float:left;
       margin:0 0 20px;
     } 
   
@@ -91,7 +90,7 @@ section {
   
     section {
       width:400px; 
-        float:left;
+      float:left;
       margin:0 0 20px;
     }
   
@@ -111,7 +110,7 @@ section {
       
     header {
       padding:10px 20px 0;
-          margin-right: 0;
+      margin-right: 0;
     }
   
     section {
@@ -136,7 +135,7 @@ section {
   @media print, screen and (max-width: 480px) {
   
     header, section, footer {
-        :none;
+        padding:none;
         position:static;
         width:auto;
       }
