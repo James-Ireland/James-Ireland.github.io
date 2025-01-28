@@ -38,28 +38,23 @@ Multi-Sensor Multi-Instrument (MSMI) was recorded in the Human Centred Technolog
 being a 6.65m X 5.97m X 2.99m room, with controlled sound and lighting, for the purpose of Affective computing and HRI studies, but was repurposed for the study of medical instrument instances.
 MSMI, is foremost the real-world counterpart to the <a href="https://doi.org/10.7910/DVN/UCG5CW">Synthetic Operating Room Table (SORT)</a> dataset, enabling the evaluation of real-world instrument depiction counting analysis. However, MSMI is not solely just a one-for-one real-world analogy for SORT, the dataset expands its functionality by containing both depictions from various points of view (POV) within the scene and different sensors capturing these depictions, hence the multi-sensor part in the title.  
 <br>
-<br>
 In total, MSMI contains 9 temporally synced video feeds each recording a given session at different positions within the room, with two different sensor types, <em>CMOS</em> from the Axis F1015 \& the Nikon D3500 and <em>IR</em> from the Intel D315. There is a total of one hundred 15 to 30-minute sessions, in which multiple instruments were placed onto the two tables, interacted with, moved between these surfaces, occasionally dropped, intentionally carried out of the scene and in some cases brought back to be placed on one of the two tables.  
-<br>
 <br>
 Unfortunately due to time and resource constraints, as the lead author was sole annotator, only 56 of the initial one hundred sessions have been annotated once per 5 or so frames.  
 While these depictions are not of any surgical operation, featuring only one human subject placing the instruments upon the table, attempts were made to make the placement of instances as varied as possible, given these limitations. 
 Namely, the person being observed, the lead author, tried their best to vary interactions, via their handedness (left vs. right), movement speed, hand coverings (bare skin vs. white gloves vs. purple gloves) and targeted placement 
 (neat individual tool layout vs.\ messy piles unthoughtfully dumped). 
 <br>
-<br>
 To annotate this dataset a new MATLAB based annotation tool was leveraged, creatively named the '<a href="https://github.com/James-Ireland/Muilt_view_Annotation_Tool">Muilt_view_Annotation_Tool</a>', 
 containing code inspired by early work of crowd counting in their use of homogeneous transforms to annotate in a single-view and have those annotations projected in other views, to be later refined. 
 Specifically, we leveraged the homogeneous transform method published by Hartley, and Zisserman in their book `<cite>Multiple view geometry in computer vision</cite>' (2003, Hartley \& Zisserman), 
-which they kindly provided their <a href="https://www.robots.ox.ac.uk/~vgg/hzbook/code>code as supplementary material</a>. 
-<br>
+which they kindly provided their code as <a href="https://www.robots.ox.ac.uk/~vgg/hzbook/code">supplementary material</a>. 
 <br>
 Each instance annotation attribute of a medical instrument or material (i.e. polygon or bounding box), is actually made up of a list of several, 
 each individual entry being that value specific to one of the nine different camera POV depictions. 
 For which only the RGB feed in each was annotated, since in the case of the RGB-D sensors each depth image is already matched pixel-wise to their RGB pair, and so additionally annotating the depth feed would be redundant.
 Currently only three of the 9 views (Camera 5, 6, and 7) have annotations that are pixel-wise accuract due to the homography transforms needing manual refinements, 
 but hopefully future versions of this dataset will have these changes made and the missing annotations for the 44 untouched videos addressed. 
-<br>
 <br>
 Hartley, R. and Zisserman, A., 2004. Two-view geometry. Multiple View Geometry in Computer Vision, pp.237-238.
 
