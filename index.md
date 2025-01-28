@@ -13,7 +13,7 @@ layout: default
 
 ## Datasets
 ### Synthetic Operating Room Table (SORT) Dataset
-<img align="right" width="480" src="./Figures/sORt_img_and_annotation_stacked_vert.png">
+<img align="right" width="340" src="./Figures/sORt_img_and_annotation_stacked_vert.png">
 The <a href="https://doi.org/10.7910/DVN/UCG5CW">Synthetic Operating Room Table (SORT)</a> dataset (Ireland et al. 2022) is a largescale computer vision focused on instance counting, segmentation and localisation surgical instrument depictions placed on a table. Each class contains two different 3D representations equally likely to be present for a given instance, with exception of the container class that leverages three different 3D models. In total, we generated 89,838 images, split into 60% training (53,906), 20% validation (17,965), and 20% test (17,967), containing 365,469, 121,951 and 122,142 separate object instances, respectively. 
 
 
@@ -41,7 +41,10 @@ Hartley, R. and Zisserman, A., 2004. Two-view geometry. Multiple View Geometry i
  &nbsp;
   * <a href="https://github.com/James-Ireland/Synthetic_OR_table_generative_game">Link to our game with custom UnrealCV plug-in </a>
   
- *  <a href="https://github.com/James-Ireland/Surgical_instrument_instance_counting_benchmarks">Link to benchmarking code</a>
+  * <a href="https://github.com/James-Ireland/Surgical_instrument_instance_counting_benchmarks">Link to the SORT dataset benchmarking code </a>
+  
+  * <a href="https://github.com/James-Ireland/Muilt_view_Annotation_Tool">Link to our annotation tool 'Muilt_view_Annotation_Tool' for the MSMI dataset </a>
+ 
 &nbsp;
 
 ## Publications
