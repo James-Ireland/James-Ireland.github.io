@@ -47,7 +47,7 @@ To annotate this dataset a new MATLAB based annotation tool was leveraged, creat
 Each instance annotation attribute of a medical instrument or material (i.e. polygon or bounding box), is actually made up of a list of several, each individual entry being that value specific to one of the nine different camera POV depictions. For which only the RGB feed in each was annotated, since in the case of the RGB-D sensors each depth image is already matched pixel-wise to their RGB pair, and so additionally annotating the depth feed would be redundant. Currently only three of the 9 views (Camera 5, 6, and 7) have annotations that are pixel-wise accuract due to the homography transforms needing manual refinements, but hopefully future versions of this dataset will have these changes made and the missing annotations for the 44 untouched videos addressed. 
 <br>
 <br>
-Hartley, R. and Zisserman, A., 2004. Two-view geometry. Multiple View Geometry in Computer Vision, pp.237-238., <a href="https://doi.org/10.1017/CBO9780511811685"> doi.org/10.1017/CBO9780511811685 <\a>
+Hartley, R. and Zisserman, A., 2004. Two-view geometry. Multiple View Geometry in Computer Vision, pp.237-238., <a href="https://doi.org/10.1017/CBO9780511811685"> doi.org/10.1017/CBO9780511811685 </a>
 
 
 ## Publications
