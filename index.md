@@ -13,10 +13,10 @@ layout: default
 
 ## Datasets
 ### Synthetic Operating Room Table (SORT) Dataset
-<img align="right" width="480" height="240" src="./Figures/sORt_sampleAnnotation_org_img.png">
+<img align="right" width="480" src="./Figures/sORt_img_and_annotation_stacked_vert.png">
 The <a href="https://doi.org/10.7910/DVN/UCG5CW">Synthetic Operating Room Table (SORT)</a> dataset (Ireland et al. 2022) is a largescale computer vision focused on instance counting, segmentation and localisation surgical instrument depictions placed on a table. Each class contains two different 3D representations equally likely to be present for a given instance, with exception of the container class that leverages three different 3D models. In total, we generated 89,838 images, split into 60% training (53,906), 20% validation (17,965), and 20% test (17,967), containing 365,469, 121,951 and 122,142 separate object instances, respectively. 
 
-<img align="right" width="480" height="240" src="./Figures/sORt_sampleAnnotation_BB_segMask_lbls.png">
+
 The depictions contained are rendered using the <a href="https://www.unrealengine.com">Unreal</a> game engine and annotated leveraging the <a href="https://unrealcv.org">UnrealCV</a> plugin. SORT contains one container class, one material class (gauze) and six instrument classes namely, forceps, scalpels, pincettes (tweezers), syringes, periotomes, and scissors. To aid in generalisability, each class contains two different 3D representations equally likely to be present for a given instance, with exception of the container class that leverages three different 3D models.
   
 
