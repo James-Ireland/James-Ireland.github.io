@@ -13,32 +13,23 @@ layout: default
 
 ## Datasets
 ### Synthetic Operating Room Table (SORT) Dataset
-<img align="right" width="240" height="120" src="./Figures/sORt_sampleAnnotation_org_img.png">
-The Synthetic Operating Room Table (SORT) dataset is a largescale computer vision focused on instance counting, segmentation and localisation surgical instrument depictions placed on a table. 
+<img align="right" width="480" height="240" src="./Figures/sORt_sampleAnnotation_org_img.png">
+The <a href="https://doi.org/10.7910/DVN/UCG5CW">Synthetic Operating Room Table (SORT)</a> dataset (Ireland et al. 2022) is a largescale computer vision focused on instance counting, segmentation and localisation surgical instrument depictions placed on a table. 
 Each class contains two different 3D representations equally likely to be present for a given instance, with exception of the container class that leverages three different 3D models. 
 In total, we generated 89,838 images, split into 60% training (53,906), 20% validation (17,965), and 20% test (17,967), containing 365,469, 121,951 and 122,142 separate object instances, respectively. 
-
-
 
 <img align="right" width="240" height="120" src="./Figures/sORt_sampleAnnotation_BB_segMask_lbls.png">
   The depictions contained are rendered using the <a href="https://www.unrealengine.com">Unreal</a> game engine and annotated leveraging the <a href="https://unrealcv.org">UnrealCV</a> plugin. 
   SORT contains one container class, one material class (gauze) and six instrument classes namely, forceps, scalpels, pincettes (tweezers), syringes, periotomes, and scissors. To aid in generalisability, each class contains two different 3D representations equally likely to be present for a given instance, with exception of the container class that leverages three different 3D models.
   
- &nbsp;
-  * <a href="https://github.com/James-Ireland/Synthetic_OR_table_generative_game">Link to our game with custom UnrealCV plug-in </a>
-  
- *  <a href="https://github.com/James-Ireland/Surgical_instrument_instance_counting_benchmarks">Link to benchmarking code</a>
-  
-  * <a href="https://doi.org/10.7910/DVN/UCG5CW">doi:10.7910/DVN/UCG5CW</a>
-    
-&nbsp;
+
 
 ### Multiple Sensors Multi-instance (MSMI) Dataset - available upon initial publication or request 
 Multi-Sensor Multi-Instrument (MSMI) was recorded in the Human Centred Technology Research Cluster's Human Observation Laboratory at the University of Canberra (UC), being a 6.65m X 5.97m X 2.99m room, with controlled sound and lighting, for the purpose of Affective computing and HRI studies, but was repurposed for the study of medical instrument instances.MSMI, is foremost the real-world counterpart to the <a href="https://doi.org/10.7910/DVN/UCG5CW">Synthetic Operating Room Table (SORT)</a> dataset, enabling the evaluation of real-world instrument depiction counting analysis. However, MSMI is not solely just a one-for-one real-world analogy for SORT, the dataset expands its functionality by containing both depictions from various points of view (POV) within the scene and different sensors capturing these depictions, hence the multi-sensor part in the title.  
 <br>
 In total, MSMI contains 9 temporally synced video feeds each recording a given session at different positions within the room, with two different sensor types, <em>CMOS</em> from the Axis F1015 & the Nikon D3500 and <em>IR</em> from the Intel D315. There is a total of one hundred 15 to 30-minute sessions, in which multiple instruments were placed onto the two tables, interacted with, moved between these surfaces, occasionally dropped, intentionally carried out of the scene and in some cases brought back to be placed on one of the two tables.  
 <br>
-Unfortunately due to time and resource constraints, as the lead author was sole annotator, only 56 of the initial one hundred sessions have been annotated once per 5 or so frames.  While these depictions are not of any surgical operation, featuring only one human subject placing the instruments upon the table, attempts were made to make the placement of instances as varied as possible, given these limitations. Namely, the person being observed, the lead author, tried their best to vary interactions, via their handedness (left vs. right), movement speed, hand coverings (bare skin vs. white gloves vs. purple gloves) and targeted placement (neat individual tool layout vs.\ messy piles unthoughtfully dumped). 
+Unfortunately due to time and resource constraints, as the lead author was sole annotator, only 56 of the initial one hundred sessions have been annotated once per 5 or so frames.  While these depictions are not of any surgical operation, featuring only one human subject placing the instruments upon the table, attempts were made to make the placement of instances as varied as possible, given these limitations. Namely, the person being observed, the lead author, tried their best to vary interactions, via their handedness (left vs. right), movement speed, hand coverings (bare skin vs. white gloves vs. purple gloves) and targeted placement (neat individual tool layout vs. messy piles unthoughtfully dumped). 
 <br>
 <br>
 To annotate this dataset a new MATLAB based annotation tool was leveraged, creatively named the '<a href="https://github.com/James-Ireland/Muilt_view_Annotation_Tool">Muilt_view_Annotation_Tool</a>', containing code inspired by early work of crowd counting in their use of homogeneous transforms to annotate in a single-view and have those annotations projected in other views, to be later refined. Specifically, we leveraged the homogeneous transform method published by Hartley, and Zisserman in their book `<cite>Multiple view geometry in computer vision</cite>' (2003, Hartley & Zisserman), which they kindly provided their code as <a href="https://www.robots.ox.ac.uk/~vgg/hzbook/code">supplementary material</a>. 
@@ -49,6 +40,12 @@ Each instance annotation attribute of a medical instrument or material (i.e. pol
 <br>
 Hartley, R. and Zisserman, A., 2004. Two-view geometry. Multiple View Geometry in Computer Vision, pp.237-238., <a href="https://doi.org/10.1017/CBO9780511811685"> doi.org/10.1017/CBO9780511811685 </a>
 
+## Code 
+ &nbsp;
+  * <a href="https://github.com/James-Ireland/Synthetic_OR_table_generative_game">Link to our game with custom UnrealCV plug-in </a>
+  
+ *  <a href="https://github.com/James-Ireland/Surgical_instrument_instance_counting_benchmarks">Link to benchmarking code</a>
+&nbsp;
 
 ## Publications
 ```bibtex
