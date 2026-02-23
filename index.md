@@ -5,11 +5,13 @@ layout: default
 
 ## Research interests  
 * Computer Vision 
-* Machine Learning 
-* Artifical Inteligence  
 * Robotics
+* Artifical Inteligence  
+* Machine Learning 
 * Human Robot Interaction (HRI) 
 * Human Computer Interaction (HCI) 
+* Large Language Models (LLMs)
+
 
 ## Datasets
 ### Synthetic Operating Room Table (SORT) Dataset
@@ -102,6 +104,14 @@ Hartley, R. and Zisserman, A., 2004. Two-view geometry. Multiple View Geometry i
    While the current framework is designed for this particular task, the control architecture could be built upon to provide a base for various collaborative studies.},
    ISBN = {978-3-030-05204-1},
    type = {Conference Proceedings}
+}
+
+@inproceedings{vestal2025icmi,
+  title={ICMI’25 Grand Challenge: A Thermal and Spectral Multimodal Image Dataset for Contaminant Detection in Industrial Organic Food Waste},
+  author={Vestal, Matthew and Ireland, James and Wang, Xing and Subramanian, Ram and Herath, Damith},
+  booktitle={Proceedings of the 27th International Conference on Multimodal Interaction},
+  pages={797--802},
+  year={2025}
 }
 
 ``` 
